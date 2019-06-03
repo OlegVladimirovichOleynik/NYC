@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NYC</title>
+    <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Табак NewYorkeR Club NewYorkerClub NYC кальян курить дым табачная смесь hookah tobacco Нью Йоркер Бёрли Бразилия крепко некрепко дым пар" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name = "viewport" content = "user-scalable=no, width=device-width">
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+  <body>
+    <div class="main-content" id="home">
+        <div class="layer">
+            <header class="header">
+                <div class="container-fluid px-lg-5">
+                    <nav class="py-4">
+                        <label for="drop" class="toggle">Меню</label>
+                        <input type="checkbox" id="drop" />
+                        <ul class="menu mt-2">
+                            <li class="mr-lg-4 mr-3 active"><a href="#check" class="scroll">Проверка</a></li>
+                            <li class="mr-lg-4 mr-3"><a href="#about" class="scroll">О нас</a></li>
+                            <li class="mr-lg-4 mr-3"><a href="#tastes" class="scroll">Наши вкусы</a></li>
+                            <li class="mr-lg-4 mr-3"><a href="#contact" class="scroll">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="banner-info-w3ls">
+              <p><%= image_tag("new.png")%><p>
+              <h2>Проверить табак на подлинность</h2>
+                <a href="#check" class="scroll">
+                    <div class="icon-scroll">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                        <div class="icon-arrows">
+                            <span></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <%= yield %>
+  </body>
+</html>
