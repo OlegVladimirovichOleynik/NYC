@@ -53,6 +53,12 @@ input[type="search"] {
     background: none;
     border-radius: 5px;
 }
+@font-face {
+  font-family:"28 Days Later";
+  src:url("8707.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;}
+
 /*end my fix*/
 
 h1,
@@ -159,7 +165,7 @@ nav a {
     padding-left: 0;
     padding-right: 0;
     padding: 10px 0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: '28 days later';
     text-transform: uppercase;
 }
 
@@ -268,6 +274,7 @@ li > a:only-child:after {
         text-transform: uppercase;
         cursor: pointer;
         font-weight: 700;
+        font-family: '28 days later';
     }
     .menu .toggle {
         float: none;
@@ -358,7 +365,6 @@ li > a:only-child:after {
         font-size: 0.85em;
     }
 }
-
 @media all and (max-width: 330px) {
 
     nav ul li {
@@ -410,7 +416,8 @@ li > a:only-child:after {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 9px;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
+    font-family: '28 days later';
 }
 
 
@@ -593,11 +600,12 @@ h3.agile_tittle.two {
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #242425;
+    color: #ffffff;
     font-weight: 700;
     letter-spacing: 2px;
     text-align: left;
     text-transform: uppercase;
+    font-family: '28 days later';
 }
 
 h3.title span {
@@ -662,6 +670,7 @@ h6.intr {
     font-weight: 700;
     letter-spacing: 0.25em;
     font-size: 1.9em;
+    font-family: '28 days later';
 }
 
 .w3l-btm {
@@ -674,7 +683,7 @@ h6.intr {
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     -o-transition: all 1s;
-    padding: 3em 4em 3em 4em;
+    padding: 0em 0em 0em 2em;
 }
 
 .services-box:hover {
@@ -712,13 +721,14 @@ h6.intr {
 
 .service-content h4,
 .service-content h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
     color: #d63031;
     letter-spacing: 2px;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
+    font-family: "28 days later"
 }
 
 .service-txt h5 {
@@ -759,7 +769,7 @@ p.serp {
 }
 
 h6.intr.ser {
-    color: #484d55;
+    color: #ffffff;
 }
 
 h3.main_head1 {
@@ -1028,11 +1038,12 @@ section#gallery {
 
 .contact-grids h4 {
     text-transform: capitalize;
-    color: #333;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    font-family: '28 days later';
 }
 
 .contact-left h5 {
@@ -1084,7 +1095,7 @@ section#gallery {
 
 .contact-right input[type="submit"] {
     padding: 12px 35px;
-    color: #fff;
+    color: #ffffff;
     background: #d63031;
     border: 2px solid #d63031;
     font-weight: 600;
@@ -1095,6 +1106,7 @@ section#gallery {
     float: right;
     cursor: pointer;
     text-transform: uppercase;
+    font-family: '28 days later';
 }
 
 /*---my edit---*/
@@ -1110,6 +1122,7 @@ section#gallery {
     border-radius: 6px;
     cursor: pointer;
     text-transform: uppercase;
+    font-family: '28 days later';
 }
 
 .test_cipher textarea {
@@ -1450,13 +1463,13 @@ a.move-top span {
     }
     .service-content h4,
     .service-content h2 {
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
 }
 
 @media(max-width:480px) {
     h3.title {
-        font-size: 2em;
+        font-size: 3em;
     }
     .exp-grids h4,
     .exp-grid1 h4 {
@@ -1516,7 +1529,7 @@ a.move-top span {
     }
     .icon-scroll {
         position: absolute;
-        bottom: -26%;
+        bottom: -23%;
         left: 50%;
     }
     p.main_p {
@@ -1541,11 +1554,21 @@ a.move-top span {
     h3.title {
         font-size: 1.6em;
     }
+    .icon-scroll {
+        position: absolute;
+        bottom: -30%;
+        left: 50%;
+    }
 }
 
 @media(max-width:375px) {
     h3.title {
-        font-size: 1.4em;
+        font-size: 3em;
+    }
+    .icon-scroll {
+        position: absolute;
+        bottom: -25%;
+        left: 50%;
     }
 }
 
@@ -1560,6 +1583,10 @@ a.move-top span {
     .banner-info-w3ls {
         padding-top: 8em;
         width: 96%;
+    }
+    .icon-scroll {
+      position: absolute;
+      bottom: -30%;
     }
 }
 
