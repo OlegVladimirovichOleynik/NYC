@@ -728,7 +728,8 @@ h6.intr {
     color: #d63031;
     letter-spacing: 2px;
     margin-bottom: 0.1em;
-    font-family: "28 days later"
+    font-family: "28 days later";
+    text-align: center;
 }
 
 .service-txt h5 {
