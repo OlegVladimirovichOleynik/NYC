@@ -70,7 +70,7 @@ h6 {
     margin: 0;
     letter-spacing: 1px;
     font-weight: 700;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: '28 days later';
 }
 
 p {
@@ -140,7 +140,7 @@ nav:after {
  * and adding "position:reltive" */
 
 nav ul {
-    float: right;
+    float: left;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -758,6 +758,10 @@ p.serp {
     text-transform: none;
     line-height: 1.8em;
     font-size: 15px;
+}
+/*-- my fix pack img --*/
+.pack img {
+  width: 70%;
 }
 
 
