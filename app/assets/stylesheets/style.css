@@ -1053,7 +1053,7 @@ section#gallery {
 
 .contact-left h5 {
     text-transform: capitalize;
-    color: #333;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1069,7 +1069,7 @@ section#gallery {
 }
 
 .contact-left p a:hover {
-    color: #000;
+    color: #fff;
 }
 
 .map iframe {
